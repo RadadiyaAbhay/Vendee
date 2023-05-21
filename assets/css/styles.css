@@ -1,45 +1,273 @@
-/* Add your CSS styles here */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+.font-fami1{
+    font-family: Bruno Ace SC;
+}
+.font-fami2{
+    font-family: Bungee;
+}
+.font-fami3{
+    font-family: Bebas Neue;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style:none;
+    display:inline-block;
+    padding: 10px 10px 10px 10px;
+    
+}
+ul{
     padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  h1 {
     margin: 0;
-  }
-  
-  #product-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .product-card {
-    background-color: #f4f4f4;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    width: 200px;
-  }
-  
-  .product-card img {
-    max-width: 100%;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
+    
+}
+.b2{
+    height: 400px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.b3{
+    height: 400px;
+   
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.foot li{
+    display: block;
+}
+nav ul li a{
+    color: white;
+    font-weight: 500;
+}
+footer{
+    background-color: #F6F7F8
+}
+.foot-2{
+    background-color: black;
+}
+.fs-14{
+    font-size: 14px;
+}
+.icon li{
+    padding: 8px 7px;
+}
+.foot li{
+    padding: 9px 0px;
+}
+.b1{
+    height: 400px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.cs{
+    background-color: #F6F7F8;
+}
+.b4{
+    height: 185px;
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b5{
+    height: 185px;
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b6{
+    height: 185px;
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b7{
+    height: 185px;
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b8{
+    height: 250px;
+    background-image: url("../img/8.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b9{
+    height: 115px;
+    background-image: url("../img/9.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b10{
+    height: 115px;
+    background-image: url("../img/10.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b11{
+    height: 115px;
+    background-image: url("../img/11.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b12{
+    height: 115px;
+    background-image: url("../img/12.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b13{
+    height: 250px;
+    background-image: url("../img/13.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b14{
+    height: 250px;
+    background-image: url("../img/14.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b15{
+    height: 67px;
+    background-image: url("../img/15.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b16{
+    height: 67px;
+    background-image: url("../img/16.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b17{
+    height: 67px;
+    background-image: url("../img/17.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b18{
+    height: 67px;
+    background-image: url("../img/18.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b19{
+    height: 440px;
+    background-image: url("../img/19.jpg");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b20{
+    height: 67px;
+    background-image: url("../img/20.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b21{
+    height: 67px;
+    background-image: url("../img/21.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b22{
+    height: 67px;
+    background-image: url("../img/22.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b23{
+    height: 67px;
+    background-image: url("../img/23.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b24{
+    height: 67px;
+    background-image: url("../img/24.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b25{
+    height: 67px;
+    background-image: url("../img/25.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b26{
+    height: 67px;
+    background-image: url("../img/26.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b1::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.b2::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.b3::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.btn:first-child:active {
+    border-color: transparent;
+}
+.bor{
+    color:black;
+}
+.con{
+    content: 'CSK Win Yesterday Match';
+}
