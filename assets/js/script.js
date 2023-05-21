@@ -13,7 +13,7 @@ document.getElementById('date').textContent = formattedDate;
 
 // sharedContent.js
 window.addEventListener('DOMContentLoaded', function() {
-    var sharedParagraph = "Philips announced the launch Philips CT 3500.";
+    var sharedParagraph = "5G has Arrived in India";
     var paragraphs = document.querySelectorAll('.shared-paragraph');
 
     for (var i = 0; i < paragraphs.length; i++) {
