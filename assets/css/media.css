@@ -1,19 +1,159 @@
 @media(max-width:575px){
-   
+   .b2{
+    height: 47vw;
+   }
+   .b1{
+    height: 96vw;
+}
+.b2 h5{
+    font-size: 15px;
+}
+.b1 h3{
+    font-size: 1.25rem;
+}
+
+.back1{
+    left:70%; 
+    top:90%; 
+}
+  
+  .ban{
+    height: 40vh;
+  }
+  .fo{
+    font-size: 0.7rem;
+}
+.fo-1{
+    font-size:0.8rem;
+}
 }
 @media(min-width:576px){
+    .b2{
+        height:254px ;
+       } 
+    .b1{
+        height: 524px;
+    }
+    .b2 h5{
+        font-size: 1.15rem;
+    }
     
+    
+    .b1 h3{
+        font-size: 1.5rem;
+    }
+    
+      .ban{
+        height: 60vh;
+      }
+      .fo{
+        font-size: 0.8rem;
+    }
+    .fo-1{
+        font-size: 0.9rem;
+    }
 }
 @media(min-width:768px){
-   
+    .b2{
+        height:164px ;
+       }
+    .b1{
+        height: 100%;
+    }
+    .b2 h5{
+        font-size: 15px;
+    }
+
+        .b1 h3{
+        font-size: 1.25rem;
+    }
     
+      .b3{
+        height: 344px;
+    }
+    .ban{
+        height: 70vh;
+      }
+      .fo{
+        font-size: 0.7rem;
+    }
+    .fo-1{
+        font-size: 0.8rem;
+    }
 }
 @media(min-width:992px){
+    .b2{
+        height: 208px;
+       }
     
+    .b2 h5{
+        font-size: 1.10rem;
+    }
+    
+      .b1 h3{
+        font-size: 1.35rem;
+    }
+    
+      .b3{
+        height: 448px;
+    }
+    .ban{
+        height: 67vh;
+      }
+      .fo{
+        font-size: 0.8rem;
+    }
+    .fo-1{
+        font-size: 0.9rem;
+    }
 }
 @media(min-width:1200px){
+    .b2{
+        height:253px ;
+       }
+       .b2 h5{
+        font-size: 1.15rem;
+    }
    
+    
+    .b1 h3{
+        font-size: 1.50rem;
+    }
+    
+      .b3{
+        height: 538px;
+    }
+    .ban{
+        height: 75vh;
+      }
+      .fo{
+        font-size: 0.9rem;
+    }
+    .fo-1{
+        font-size: 0.91rem;
+    }
 }
 @media(min-width:1400px){
+    .b2{
+        height: 298px;
+       }
+       .b2 h5{
+        font-size: 1.25rem;
+    }
+    .b1 h3{
+        font-size: 1.75rem;
+    }
     
+    .b3{
+        height: 628px;
+    }
+    .ban{
+        height: 80vh;
+      }
+    .fo{
+        font-size: 1rem;
+    }
+    .fo-1{
+        font-size: 1.05rem;
+    }
 }

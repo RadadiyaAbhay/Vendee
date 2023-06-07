@@ -39,8 +39,12 @@
     
 </head>
 <body>
+<div id="back"></div>
 
-
+        <a href="#back" class="d-flex justify-content-center align-items-center m-0 p-0  back1 position-fixed rounded-5">
+          <i class="bi bi-chevron-up text-black fs-3 m-0 p-0"></i>
+        </a>
+    
 <!-- Header -->
 <header>
     <div class="bg-primary">
@@ -93,7 +97,7 @@
                   </a>
               </li>
               <li>
-                  <a href="./index2.html" style="font-weight: 400;">
+                  <a href="./mobiles.html" style="font-weight: 400;">
                       Mobiles
                   </a>
               </li>
@@ -145,7 +149,10 @@
       </div>
     </div>
 </header>
+
+
 <main>
+<!-- Banner Section -->
   <section>
     <div id="carouselExampleCaptions" class="carousel slide" id="carouselExampleSlidesOnly" data-bs-ride="carousel">
       
@@ -153,40 +160,38 @@
         <div class="carousel-item active">
           <div class="ban-1 ban" style="background-image: url('./assets/img/tv/6.jpg');">
           </div>
-          <div class="carousel-caption d-none d-md-block z-3 text-black text-start">
+          <div class="carousel-caption  z-3 text-black text-start">
             <div class="container">
-              <div class="row ps-5">
+              <div class="row ps-5 s1 d-none ">
                 <h5 class="fs-1 fw-bolder pt-10">Neo QLED 8K</h5>
-                <p class="ps-0 pt-3 fs-5 pb-3">More wow than ever<br/>Get up to ₹ 24,500* off with cashback & app voucher</p>
+                <p class="ps-0 pt-3 fs-5 pb-3 ">More wow than ever<br/>Get up to ₹ 24,500* off with cashback & app voucher</p>
                 <button type="button" class="btn btn-dark col-1 font-fami1 rounded-pill">Buy Now</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item">
-          
-          <div class="ban-2 ban" style="background-image: url('./assets/img/mobile/9.avif');">
+          <div class="carousel-item">
+            <div class="ban-2 ban" style="background-image: url('./assets/img/mobile/9.avif');">
             </div>
-            <div class="carousel-caption d-none d-md-block z-3 text-black text-start">
+            <div class="carousel-caption  z-3 text-black text-start">
               <div class="container">
-                <div class="row ps-5">
+                <div class="row ps-5 s1 d-none ">
                   <h5 class="fs-1 fw-bolder pt-10">Galaxy Z Fold4 | Z Flip4</h5>
-                  <p class="ps-0 pt-3 fs-5 pb-3">Starting ₹ 80999*<br/>Get Galaxy Watch4 classic at ₹ 2999 (worth ₹ 34999*)</p>
+                  <p class="ps-0 pt-3 fs-5 pb-3 ">Starting ₹ 80999*<br/>Get Galaxy Watch4 classic at ₹ 2999 (worth ₹ 34999*)</p>
                   <button type="button" class="btn btn-dark col-1 font-fami1 rounded-pill">Buy Now</button>
                 </div>
               </div>
             </div>
         </div>
-        <div class="carousel-item">
-          
-          <div class="ban-3 ban" style="background-image: url('./assets/img/laptop/11.webp');"> 
+          <div class="carousel-item">
+            <div class="ban-3 ban" style="background-image: url('./assets/img/laptop/11.webp');"> 
             </div>
-            <div class="carousel-caption d-none d-md-block z-3 text-black text-start">
+            <div class="carousel-caption  z-3 text-black text-start">
               <div class="container">
-                <div class="row ps-5">
+                <div class="row s1 ps-5 d-none ">
                   <h5 class="fs-1 fw-bolder pt-10">Galaxy Book3 pro 360</h5>
                   <p class="ps-0 pt-3 fs-5 pb-3">Design that bends over backwards.</p>
-                  <button type="button" class="btn btn-dark col-1 font-fami1 rounded-pill ">Buy Now</button>
+                  <button type="button" class="btn btn-dark col-1    font-fami1 rounded-pill ">Buy Now</button>
                 </div>
               </div>
             </div>
@@ -202,76 +207,109 @@
     </button>
     </div>
   </section>
+
+<!-- This Week's Highlights -->
   <section>
     <div class="container">
+
+      <!-- title -->
       <div class="row pt-5 pb-3">
         <h2 class="fw-bolder fs-1 text-center  font-fami1 ">
           This Week’s Highlights
         </h2>
       </div>
+
+      <!-- content -->
       <div class="row">
-        <div class="col-6 product-container  p-3 hokk-1">
-          
-          <div class="rounded-5 hok d-flex align-items-end justify-content-center up-1 " style="background-image: url('./assets/img/laptop/14.png'); height: 100%; background-size: cover;">
-            <h3 class="text-black  pb-4">
-              Lenovo IdeaPad Slim 3
-            </h3>
-            <div class="buy-now-button-1 co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000 <sub class="ps-2">M.R.P ₹<span class="text-decoration-line-through"> 75000</span></sub></div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
-                </div>
-            
-          </div>
+        <!-- 1 -->
+        <div class="col-12 col-sm-12 col-md-6   p-2 p-sm-2 p-lg-3 ">
+          <div class="rounded-4  d-flex flex-warp align-items-end justify-content-center  b1" style="background-image: url('./assets/img/laptop/14.png'); background-size: cover;">
+            <div>
+              <h3 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                Lenovo IdeaPad Slim 3
+              </h3>
+              <div class="pb-2 pt-0 text-center fw-medium fo-1">
+                ₹ 50,000 
+                <sub class="ps-2">
+                  M.R.P ₹
+                  <span class="text-decoration-line-through">
+                    75000
+                  </span>
+                </sub>
+              </div>
+            </div>
+            </div>
         </div>
-        <div class="col-6   d-flex p-0">
+
+        <div class="col-12 col-sm-12 col-md-6  d-flex p-0">
           <div class="col-6 ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex  align-items-end justify-content-center up pk-1" style="background-image: url('./assets/img/headphones/3.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  boAt Airdopes
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+
+            <!-- 2 -->
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up pk-1 b2" style="background-image: url('./assets/img/headphones/3.png'); background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    boAt Airdopes
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
                 
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/tv/7.avif'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  M7 Smart Monitor
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+
+            <!-- 3 -->
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/tv/7.avif');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    M7 Smart Monitor
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
+
           <div class="col-6  ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/tablet/3.avif'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Galaxy Tab A8
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+
+            <!-- 4 -->
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/tablet/3.avif');  background-size: cover;">
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Galaxy Tab A8
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/mobile/10.png'); height:300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Oppo A78 5G
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+
+            <!-- 5 -->
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/mobile/10.png'); background-size: cover;">
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Oppo A78 5G
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -286,64 +324,84 @@
         </h2>
       </div>
       <div class="row">
-        <div class="col-6   d-flex p-0">
+        <div class="col-12 col-sm-12 col-md-6   d-flex p-0">
           <div class="col-6  ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/ex/6.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  OnePlus Nord CE 3 Lite 5G
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/ex/6.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    OnePlus Nord CE3 Lite 5G
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/ex/8.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Vivo Y22
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/ex/8.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Vivo Y22
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6  ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/ex/7.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Redmi Note 12 5G
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/ex/7.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Redmi Note 12 5G
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/ex/5.avif'); height:300px;  background-size: cover;">
-                <h5 class="text-white pb-4">
-                  Samsung Galaxy M13
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/ex/5.avif');   background-size: cover;">
+                
+                <div>
+                  <h5 class="text-white mb-0 mb-md-1  pb-0 text-center">
+                    Samsung Galaxy M13
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo text-white">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-6 product-container  p-3 hokk-1">
-          <div class="rounded-5 hok d-flex align-items-end justify-content-center up-1" style="background-image: url('./assets/img/ex/1.avif'); height: 100%; background-size: cover;">
-            <h3 class="text-black  pb-4">
-              Galaxy S23 Series
-            </h3>
-            <div class="buy-now-button-1 co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000 <sub class="ps-2">M.R.P ₹<span class="text-decoration-line-through"> 75000</span></sub></div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+        <div class="col-12 col-sm-12 col-md-6   p-2 p-sm-2 p-lg-3 ">
+          <div class="rounded-4  d-flex align-items-end justify-content-center up-1 b1" style="background-image: url('./assets/img/ex/1.avif');  background-size: cover;">
+            
+                <div>
+                  <h3 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Galaxy S23 Series
+                  </h3>
+                  <div class="pb-2 pt-0 text-center fw-medium fo-1">
+                    ₹ 50,000 
+                    <sub class="ps-2">
+                      M.R.P ₹
+                      <span class="text-decoration-line-through">
+                        75000
+                      </span>
+                    </sub>
+                  </div>
                 </div>
           </div>
         </div>
@@ -360,101 +418,124 @@
         </h2>
       </div>
       <div class="row">
-        <div class="col-6   d-flex p-0">
+        <div class="col-12 col-sm-12 col-md-6   d-flex p-0">
           <div class="col-6  ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/7.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  beatXP Unbound+ 1.8
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/7.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    beatXP Unbound+ 1.8
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/1.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  boAt Xtend 
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/1.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    boAt Xtend
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6  ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/2.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Fire-Boltt Ninja Fit 
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/2.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Fire-Boltt Ninja Fit
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/3.png'); height:300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Fire-Boltt Phoenix
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/3.png'); background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Fire-Boltt Phoenix
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-6   d-flex p-0">
+        <div class="col-12 col-sm-12 col-md-6   d-flex p-0">
           <div class="col-6  ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/4.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Noise ColorFit Pulse
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/4.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Noise ColorFit Pulse
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/5.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Fire-Boltt Ninja Call Pro
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/5.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Fire-Boltt Ninja Call Pro
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-6  ">
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/6.png'); height: 300px;  background-size: cover;">
-                <h5 class="text-black pb-4">
-                  Noise Pulse 2 Max
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/6.png');  background-size: cover;">
+                
+                <div>
+                  <h5 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Noise Pulse 2 Max
+                  </h5>
+                  <div class="pb-2 pt-0 text-center fw-medium fo">
+                    ₹ 50,000 
+                    
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 product-container  p-3 hokk">
-              <div class="rounded-5 hok d-flex align-items-end justify-content-center up" style="background-image: url('./assets/img/watch/6.avif'); height:300px;  background-size: cover;">
-                <h5 class="text-white pb-4">
-                  Galaxy Watch5 Pro
-                </h5>
-                <div class="buy-now-button co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000</div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+            <div class="col-12   p-2 p-sm-2 p-lg-3 ">
+              <div class="rounded-4  d-flex align-items-end justify-content-center up b2" style="background-image: url('./assets/img/watch/6.avif'); background-size: cover;">
+                
+                <div>
+                  <h5 class="text-white mb-0 mb-md-1  pb-0 text-center">
+                    Galaxy Watch5 Pro
+                  </h5>
+                  <div class="pb-2 pt-0 text-white text-center fw-medium fo">
+                    ₹ 50,000 
+                  </div>
                 </div>
               </div>
             </div>
@@ -472,25 +553,41 @@
         </h2>
       </div>
       <div class="row">
-        <div class="col-6 product-container  p-3 hokk-1">
-          <div class="rounded-5 hok d-flex align-items-end justify-content-center up-1" style="background-image: url('./assets/img/laptop/12.png'); height: 632px; background-size: cover;">
-            <h3 class="text-black  pb-4">
-              ASUS VivoBook 15
-            </h3>
-            <div class="buy-now-button-1 co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000<sub class="ps-2">M.R.P ₹<span class="text-decoration-line-through"> 75000</span></sub></div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+        <div class="col-12 col-sm-12 col-md-6   p-2 p-sm-2 p-lg-3 ">
+          <div class="rounded-4  d-flex align-items-end justify-content-center up-1 b1 b3" style="background-image: url('./assets/img/laptop/12.png'); background-size: cover;">
+            
+                <div>
+                  <h3 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    ASUS VivoBook 15
+                  </h3>
+                  <div class="pb-2 pt-0 text-center fw-medium fo-1">
+                    ₹ 50,000 
+                    <sub class="ps-2">
+                      M.R.P ₹
+                      <span class="text-decoration-line-through">
+                        75000
+                      </span>
+                    </sub>
+                  </div>
                 </div>
           </div>
         </div>
-        <div class="col-6 product-container  p-3 hokk-1">
-          <div class="rounded-5 hok d-flex align-items-end justify-content-center up-1" style="background-image: url('./assets/img/laptop/13.png'); height: 100%; background-size: cover;">
-            <h3 class="text-black  pb-4">
-              Galaxy Book3 Series
-            </h3>
-            <div class="buy-now-button-1 co rounded-2 text-white font-fami1  ps-3 pe-1 py-1 col-10 d-flex flex-warp align-items-center">
-                  <div class="col-6 ">₹ 50,000<sub class="ps-2">M.R.P ₹<span class="text-decoration-line-through"> 75000</span></sub></div>
-                  <div class="col-6 d-flex justify-content-end "><button type="button" class="btn btn-dark ">Buy Now</button></div>
+        <div class="col-12 col-sm-12 col-md-6   p-2 p-sm-2 p-lg-3 ">
+          <div class="rounded-4  d-flex align-items-end justify-content-center up-1 b1 b3" style="background-image: url('./assets/img/laptop/13.png');  background-size: cover;">
+            
+                <div>
+                  <h3 class="text-black mb-0 mb-md-1  pb-0 text-center">
+                    Galaxy Book3 Series
+                  </h3>
+                  <div class="pb-2 pt-0 text-center fw-medium fo-1">
+                    ₹ 50,000 
+                    <sub class="ps-2">
+                      M.R.P ₹
+                      <span class="text-decoration-line-through">
+                        75000
+                      </span>
+                    </sub>
+                  </div>
                 </div>
           </div>
         </div>
@@ -501,18 +598,15 @@
   
 </main>
 <footer class="text-white">
-  <div class="foot-3 py-2 text-white">
-    <div class="container">
-      <div class="row">
-        <p class="ps-4 text-center m-0 py-2 " style="font-size: 13px;">Back To Top</p>
-      </div>
-      </div>
-    </div>
+  
     <div class="foot-1">
       <div class="border-bottom border-opacity-10 border-white">
   <div class="container p-40 ">
     <div class="row ">
-      <div class="col-3" >
+      
+      
+      
+      <div class="col-2" >
         <h6 class="font-fami1 pb-1">
           <span class="text-white pe-1">Get to Know Us</span>
         </h6>
@@ -537,7 +631,7 @@
 
         </ul>
       </div>
-      <div class="col-3" >
+      <div class="col-2" >
         <h6 class="font-fami1  pb-1">
           <span class="text-white pe-1">Support</span>
         </h6>
@@ -562,7 +656,15 @@
 
         </ul>
       </div>
-      <div class="col-3" >
+      <div class="col-4 justify-content-start d-flex align-items-center  flex-nowarp">
+        <div class="col-12">
+        <h2 class=" font-fami4 mb-0 text-white pb-2 text-center">
+          Vendee<span class="fs-6 font-fami1" style="color: #febd69;">.store</span>
+        </h2>
+        
+      </div>
+      </div>
+      <div class="col-2" >
         <h6 class="font-fami1  pb-1">
           <span class="text-white pe-1">Connect with Us</span>
         </h6>
@@ -572,11 +674,7 @@
               Facebook
             </a>
           </li>
-          <li class="ps-0 pt-0 pb-1">
-            <a href="./contact.html" >
-              Twitter
-            </a>
-          </li>
+          
           <li class="ps-0 pt-0 pb-1">
             <a href="./contact.html" >
               Youtube
@@ -590,7 +688,7 @@
 
         </ul>
       </div>
-      <div class="col-3" >
+      <div class="col-2" >
         <h6 class="font-fami1  pb-1">
           <span class="text-white pe-1">Account & Community</span>
         </h6>
@@ -618,32 +716,17 @@
     </div>
   </div>
       </div>
-      <div >
-        <div class="container py-3">
-          <div class="row ">
-            <div class="col-12 justify-content-center d-flex align-items-center">
-              <h2 class=" font-fami4 mb-0 text-white ">
-                Vendee<span class="fs-6 font-fami1" style="color: #febd69;">.store</span>
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   <div class="foot-2 py-0 text-white">
     <div class="container">
       <div class="row">
         <p class="ps-4 text-center m-0 py-3">&copy; 2023 Vendee Website. All Rights Reserved.</p></div>
       </div>
-    </div>
-    
+    </div>    
 </footer>
-
-
     <script src="./assets/js/bootstrap.bundle.min.js" type="text/javascript"></script>
     <script src="./assets/js/jquery-3.6.4.min.js" type="text/javascript"></script>
     <script src="./assets/js/script.js" type="text/javascript"></script>
-    
-    
+
 </body>
 </html>
