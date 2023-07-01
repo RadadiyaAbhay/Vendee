@@ -74,3 +74,11 @@ footer{
   position: relative;
   
 }
+
+.slider {
+  display: none;
+}
+
+#header li {
+  cursor: pointer;
+}

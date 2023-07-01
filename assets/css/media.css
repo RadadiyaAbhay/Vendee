@@ -2,8 +2,8 @@
    .b2{
     height: 47vw;
    }
-   .b1{
-    height: 96vw;
+   .b1{ 
+    height: 96vw; 
 }
 .b2 h5{
     font-size: 15px;
@@ -18,13 +18,43 @@
 }
   
   .ban{
-    height: 40vh;
+    height: 50vh;
   }
   .fo{
     font-size: 0.7rem;
 }
 .fo-1{
     font-size:0.8rem;
+}
+.baa h5{
+    font-size: 22px !important;
+}
+.baa p{
+    font-size: 14px !important;
+}
+.baa button{
+    font-size: 12px !important;
+}
+.pt-10{
+    padding: 10vh 0 0 0;
+}
+.s1{
+    padding-left: 35px !important;
+}
+.fss{
+    font-size: 21px;
+}
+.foot {
+    padding-right: 0px!important;
+}
+.b3{
+    height: 96vw;
+   }
+   .b4{
+    height: 90vw;
+   }
+   .clc{
+    font-size: 13px;
 }
 }
 @media(min-width:576px){
@@ -51,6 +81,27 @@
     }
     .fo-1{
         font-size: 0.9rem;
+    }
+    .baa h5{
+        font-size: 25px !important;
+    }
+    .baa p{
+        font-size: 15px !important;
+    }
+    .baa button{
+        font-size: 14px !important;
+    }
+    .pt-10{
+        padding: 15vh 0 0 0;
+    }
+    .s1{
+        padding-left: 25px !important;
+    }
+    .b4{
+        height: 375px;
+    }
+    .clc{
+        font-size: 13px;
     }
 }
 @media(min-width:768px){
@@ -80,6 +131,28 @@
     .fo-1{
         font-size: 0.8rem;
     }
+    .baa h5{
+        font-size: 27px !important;
+    }
+    .baa p{
+        font-size: 15px !important;
+    }
+    .baa button{
+        font-size: 14px !important;
+    }
+    .pt-10{
+        padding: 20vh 0 0 0;
+    }
+    .s1{
+        padding-left: 30px !important;
+    }
+    .b4{
+        height: 410px;
+    }
+    .clc{
+        font-size: 15px;
+    }
+   
 }
 @media(min-width:992px){
     .b2{
@@ -105,6 +178,27 @@
     }
     .fo-1{
         font-size: 0.9rem;
+    }
+    .baa h5{
+        font-size: 30px !important;
+    }
+    .baa p{
+        font-size: 16px !important;
+    }
+    .baa button{
+        font-size: 12px !important;
+    }
+    .pt-10{
+        padding: 20vh 0 0 0;
+    }
+    .s1{
+        padding-left: 40px !important;
+    }
+    .b4{
+        height: 410px;
+    }
+    .clc{
+        font-size: 18px;
     }
 }
 @media(min-width:1200px){
@@ -132,6 +226,31 @@
     .fo-1{
         font-size: 0.91rem;
     }
+    .baa h5{
+        font-size: 35px !important;
+    }
+    .baa p{
+        font-size: 18px !important;
+    }
+    .baa button{
+        font-size: 14px !important;
+    }
+    .pt-10{
+        padding: 25vh 0 0 0;
+    }
+    .kak{
+        display: block !important;
+        display: flex !important;
+    }
+    .s1{
+        padding-left: 45px !important;
+    }
+    .b4{
+        height: 375px;
+    }
+    .clc{
+        font-size: 19px;
+    }
 }
 @media(min-width:1400px){
     .b2{
@@ -155,5 +274,23 @@
     }
     .fo-1{
         font-size: 1.05rem;
+    }
+    .baa h5{
+        font-size: 40px !important;
+    }
+    .baa p{
+        font-size: 20px !important;
+    }
+    .baa button{
+        font-size: 16px !important;
+    }
+    .s1{
+        padding-left: 48px!important;
+    }
+    .b4{
+        height: 440px;
+       }
+    .clc{
+        font-size: 20px;
     }
 }

@@ -18,6 +18,17 @@
     --bs-btn-disabled-bg: #febd69;
     --bs-btn-disabled-border-color: #febd69;
 }
+.btn-primary {
+    --bs-btn-bg: #395b64;
+    --bs-btn-border-color: #395b64;
+    --bs-btn-hover-bg: #395b64;
+    --bs-btn-hover-border-color: #395b64;
+    --bs-btn-focus-shadow-rgb: 57,91,100;
+    --bs-btn-active-bg: #395b64;
+    --bs-btn-active-border-color: #395b64;
+    --bs-btn-disabled-bg: #395b64;
+    --bs-btn-disabled-border-color: #395b64;
+}
 .hov :hover.ho{
     color: #febd69;
 }
@@ -33,7 +44,8 @@
     background-color: #436A75;
 }
 .p-40{
-    padding: 40px 0px;
+    padding-top: 40px ;
+    padding-bottom: 40px ;
 }
 .navbar :hover{
     color:#febd69;
@@ -103,4 +115,21 @@
     z-index: 10; 
     height: 50px ; 
     width: 50px;
+}
+.head-after{
+    display: block !important;
+    position: sticky !important; 
+}
+.bg-head{
+    background-color:rgba(51,81,89,0.7 );
+    backdrop-filter: blur(5px);
+}
+
+.underline {
+    border-bottom: 2px solid black; 
+    padding-bottom: 0px;
+  }
+.font-fami5{
+
+    font-family: 'Kanit', sans-serif;
 }
